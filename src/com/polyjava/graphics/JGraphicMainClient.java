@@ -14,22 +14,6 @@ public class JGraphicMainClient {
 	public JFrame frame;
 
 	/**
-	 * Launch the application.
-	 */
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					JGraphicMainClient window = new JGraphicMainClient();
-					window.frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
-
-	/**
 	 * Constructor.
 	 */
 	public JGraphicMainClient() {
