@@ -14,6 +14,8 @@ public class MainControler {
 				try {
 					JGraphicMainClient window = new JGraphicMainClient();
 					window.frame.setVisible(true);
+					
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
